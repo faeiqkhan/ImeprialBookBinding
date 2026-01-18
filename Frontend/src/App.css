@@ -1,0 +1,37 @@
+/* App specific styles */
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+.page-content {
+  @apply min-h-screen bg-gray-50;
+}
+
+/* Logo hover effect */
+.logo-text {
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.logo-text:hover {
+  transform: scale(1.1);
+  color: #2563eb !important;
+}
+
+/* Navigation link animations */
+a.nav-item {
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a.nav-item:hover {
+  color: #2563eb;
+  transform: scale(1.15);
+  border-bottom: none;
+}
+
